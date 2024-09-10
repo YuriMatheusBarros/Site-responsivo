@@ -309,13 +309,6 @@ section {
   z-index: 300;
 }
 
-@media (max-width: 1200px) {
-  .grid-item2 {
-    display: flex;
-    margin-left: 700px;
-  }
-}
-
 .imagem4,
 .imagem5 {
   width: 150px;
