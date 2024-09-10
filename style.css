@@ -10,6 +10,7 @@ body {
   max-height: 100vh;
   max-height: 100%;
   max-width: 100%;
+  overflow-x: hidden;
 
 }
 
@@ -109,10 +110,11 @@ body {
 
 section {
   position: relative;
+  
 }
 
 .espaço {
-
+  
   z-index: 1;
   position: fixed;
   top: 0;
@@ -123,10 +125,9 @@ section {
   object-fit: cover;
   max-width: 100%;
   background-size: cover;
-  
-  
+  display: block;
+ 
 }
-
 
 .blank {
   position: absolute;
